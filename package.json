@@ -1,10 +1,10 @@
 {
   "name": "tours-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "node express testing",
   "main": "index.js",
   "engines": {
-    "node": "v16.15.1"
+    "node": "14.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
