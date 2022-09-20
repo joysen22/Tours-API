@@ -3,9 +3,8 @@ const mongoose = require("mongoose");
 const ConnectDB = async () => {
   try {
     const DB_URL = process.env.MDB_URL;
-    const url =
-      "mongodb+srv://my-Tours:JQxqcVKGkFWx9jJu@cluster0.gcuiy.mongodb.net/Tours-app?retryWrites=true&w=majority";
-    const conn = await mongoose.connect(url, {
+
+    const conn = await mongoose.connect(DB_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
